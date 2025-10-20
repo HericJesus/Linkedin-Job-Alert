@@ -10,7 +10,7 @@ class LoginWindow:
         self.root.configure(background='black')
 
         self.frame_1 = Frame(self.root, bg="white")
-        self.frame_1.place(relx=0.1, rely=0.2, relwidth=0.8, relheight=0.6)
+        self.frame_1.place(relx=0.05, rely=0.1, relwidth=0.9, relheight=0.8)
 
         # Campos de entrada
         Label(self.frame_1, text="E-mail:").place(relx=0.1, rely=0.2)
