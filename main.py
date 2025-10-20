@@ -5,7 +5,6 @@ from search import abrir_link_vagas
 
 if __name__ == "__main__":
 
-
 # 1- Solicita email e senha de acesso ao linkedin
     janela = LoginWindow()
     email, password, position, city = janela.get_login()  # Espera o usuário digitar e clicar "Ok"
