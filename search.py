@@ -8,10 +8,10 @@ from selenium.webdriver.common.by import By
 import pandas as pd
 from openpyxl import Workbook
 
-def abrir_link_vagas(driver):
+def abrir_link_vagas(driver, cargo, local):
     
-    local = "Curitiba"
-    cargo = "Analista"
+    #local = "Curitiba"
+    #cargo = "Analista"
 
     query = f"{cargo} {local}".replace(" ", "%20")
     url = f"https://www.linkedin.com/jobs/search?keywords={query}"

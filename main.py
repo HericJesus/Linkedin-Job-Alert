@@ -8,7 +8,9 @@ if __name__ == "__main__":
 
 # 1- Solicita email e senha de acesso ao linkedin
     janela = LoginWindow()
-    email, password = janela.get_login()  # Espera o usuário digitar e clicar "Ok"
+    email, password, position, city = janela.get_login()  # Espera o usuário digitar e clicar "Ok"
+
+    print(position, city)
 
 # 2- abrir google chrome
 # 3- Logar no Linkedin    
@@ -16,7 +18,7 @@ if __name__ == "__main__":
 
 # 4- Pesquisar por vagas
 # 5- Salvar vagas em uma planilha
-    driver = abrir_link_vagas(driver)
+    driver = abrir_link_vagas(driver, position, city)
 
 
 
