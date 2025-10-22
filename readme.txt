@@ -44,21 +44,15 @@ Linkedin Job Alert/
 ⚠️ Observações importantes
 
 O uso de automação no LinkedIn deve respeitar os Termos de Uso da plataforma.
-
 É recomendado limitar a frequência de buscas e logins automáticos para evitar bloqueios.
-
 Configure corretamente o ChromeDriver compatível com a sua versão do Chrome.
-
 As credenciais não devem ser armazenadas em texto plano — o projeto pode ser estendido para usar criptografia.
 
 📈 Próximos passos
 
  Implementar filtro por data da vaga e nível de experiência
-
  Adicionar logs e tratamento de erros
-
  Salvar histórico de vagas aplicadas
-
  Integração com e-mail para alertas automáticos
 
 👨‍💻 Autor
