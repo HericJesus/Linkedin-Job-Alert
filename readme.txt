@@ -38,8 +38,8 @@ Linkedin Job Alert/
 ├── login.py # Realiza o login no LinkedIn via Selenium
 ├── pesquisa.py # Pesquisa e coleta das vagas
 ├── requirements.txt # Dependências do projeto
-├── README.md # Este arquivo
-└── venv/ # Ambiente virtual (não subir para o GitHub)
+└──  README.md # Este arquivo
+
 
 ⚠️ Observações importantes
 
